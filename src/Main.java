@@ -20,6 +20,8 @@ public class Main {
                 System.out.println(map.Visualize(m));
             }
         }
+
+        System.out.println("Hello world!");
     }
 
     public static Move[] BreadthFirst(Map map) {
