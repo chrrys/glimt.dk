@@ -10,8 +10,6 @@ public class Position {
     public Position(Position position, Speed speed) {
         this(position.getX() + speed.getDeltaX(), position.getY() + speed.getDeltaY());
         System.out.println("test");
-
-
     }
 
     @Override
